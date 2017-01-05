@@ -1,0 +1,97 @@
+
+    /*
+    For each article on your blog page:
+    A different background color.
+    A different font family.
+    A different font size.
+    A different font color.
+    A different line height.
+    A different padding value.
+    Each should have a border, 
+    but with rounded corners of different size 
+    (e.g. one article could have barely rounded borders, 
+    but the next one could be almost circular in shape)*/
+body {
+	background-color: light-grey;
+	font-size: 1em;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 1.25em;
+}
+
+.title {
+	font-family: cursive;
+}
+
+.byline {
+	font-family: sans-serif;
+	font-size: .75em;
+	background-color: pink;
+}
+
+.post1 p {
+	background-color:#16a085; 
+	font-family: Georgia, serif;
+	font-size: 1em;
+	color: #2c3e50;
+	line-height: 90%; 
+	padding: 5px 5px;
+	border: solid; 
+	border-color: #2980b9;
+	border-radius: 20%;
+}
+
+.post2 p {
+background-color: #d35400;
+font-family: Ariel;
+font-size: 1em;
+color: brown;
+line-height: 100%;
+padding: 2px 2px;
+border: dotted;
+border-color: red;
+border-radius: 30%;
+
+}
+
+.post3 p {
+background-color: tomato;
+font-family: charcoal;
+font-size: 1.2em;
+color: green;
+line-height: 300%;
+padding: 0;
+border: none;
+border-color: none; 
+border-radius: 100%;
+
+}
+
+.post4 p {
+background-color: orange;
+font-family: Gadget;
+font-size: .25em;
+color: white;
+line-height: 60%;
+padding: 19px;
+border: 5px solid red; 
+border-radius: 40%;
+
+}
+
+.post5 p {
+background-color: #34495e;
+font-family: Tahoma;
+font-size: 10px
+color: #f1c40f;
+line-height: 250%;
+padding: 20px;
+border: 20px dotted #d35400;
+border-radius: 75%;
+}
+
+.copyright {
+	margin-top: 100px;
+}
